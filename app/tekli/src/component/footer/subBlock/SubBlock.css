@@ -1,0 +1,87 @@
+.subBlock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 32px;
+    min-width: 300px;
+    width: 28%;
+    color: #fff;
+}
+
+.subBlock i {
+    font-size: 16px;
+}
+
+.subBlock p {
+    margin-top: 0;
+}
+
+.blockTitle {
+    height: 32px;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.blockTitle p {
+    display: flex;
+    margin: auto;
+    margin-left: 0;
+    font-size: 24px;
+}
+
+.blockList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.blockListSocial {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.blockListElem {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.blockListElemSocial {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    line-height: 48px;
+    margin-right: 8px;
+}
+
+.blockListElemSocial p {
+    margin: 0;
+    margin-left: 12px;
+}
+
+.blockListElem p {
+    margin: 0;
+    margin-left: 5px;
+}
+
+.iconBackground {
+    padding: 16px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #4791ea;
+    background-color: #fff;
+}
+
+.iconBackground:hover {
+    -webkit-box-shadow: 0px 0px 16px -6px rgba(31,31,31,1);
+    -moz-box-shadow: 0px 0px 16px -6px rgba(31,31,31,1);
+    box-shadow: 0px 0px 16px -6px rgba(31,31,31,1);
+}
+
+.icon-email {
+    font-size: 22px !important;
+}

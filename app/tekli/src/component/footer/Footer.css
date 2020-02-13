@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
-
+à
 .Footer {
     display: flex;
     flex-wrap: wrap;
@@ -22,70 +22,6 @@
     width: 100%;
     background-color: #4791ea;
     padding-bottom: 32px;
-}
-
-.subBlock {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-top: 32px;
-    min-width: 300px;
-    width: 28%;
-    color: #fff;
-}
-
-.subBlock i {
-    font-size: 16px;
-}
-
-.subBlock p {
-    margin-top: 0;
-}
-
-.blockTitle {
-    height: 32px;
-    display: flex;
-    margin-bottom: 16px;
-}
-
-.blockTitle p {
-    display: flex;
-    margin: auto;
-    margin-left: 0;
-    font-size: 24px;
-}
-
-.blockList {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.blockListElem {
-    display: flex;
-    flex-wrap: nowrap;
-    font-size: 16px;
-    line-height: 16px;
-    margin-bottom: 5px;
-}
-
-.blockListElemSocial {
-    display: flex;
-    flex-wrap: nowrap;
-    font-size: 16px;
-    line-height: 48px;
-    margin-bottom: 5px;
-}
-
-.blockListElemSocial p {
-    margin: 0;
-    margin-left: 12px;
-}
-
-.blockListElem p {
-    margin: 0;
-    margin-left: 5px;
 }
 
 .Footer p {
@@ -131,21 +67,3 @@
     font-size: 12px;
     display: flex;
 }
-
-.iconBackground {
-    padding: 16px;
-    border-radius: 50%;
-    text-decoration: none;
-    color: #fff;
-}
-
-.iconBackground:hover {
-    -webkit-box-shadow: 0px 0px 16px -6px rgba(31,31,31,1);
-    -moz-box-shadow: 0px 0px 16px -6px rgba(31,31,31,1);
-    box-shadow: 0px 0px 16px -6px rgba(31,31,31,1);
-}
-
-.discord { background-color: #7289da; }
-.facebook { background-color: #3e5b98; }
-.twitter { background-color: #4da7de; }
-.linkedin { background-color: #3371b7; }
